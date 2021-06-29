@@ -1,0 +1,690 @@
+img{
+    height: 300px;
+    width: auto;
+    object-fit: cover;
+    box-shadow: 0 4px 8px 0 rgba(167, 167, 167, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px;
+    transition: transform .2s;
+    border-radius: 8px;
+    border:rgb(65, 65, 65);
+    filter: saturate(1.2);
+}
+
+/*Images and there classes are set to be equal in size and have a box-shadow.*/
+
+img:hover{
+    transform: scale(1.2);  /* zoom into 150% */
+}
+
+/*Images are set to be equal in size with a border-radius of 10px.*/
+
+td{
+    font-size: small;
+    text-align: center;
+}
+
+/*Text-size within the table cell is set to small and centered.*/
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+/*Form is displayed as flex and has padding of 20px all around.*/
+
+.toprow{
+    padding: 20px;
+}
+/*toprow has padding of 20px all around.*/
+
+.form-control{
+    background-color: rgba(45, 49, 53, 0.651);
+}
+
+/*Form to have a background of dark-grey.*/
+
+.col-md-6{
+    display: inline-flexbox;
+    flex-wrap: wrap;
+}
+
+/*Form is displayed as inline-flexbox and flex-wrap: wrap.*/
+
+.copyright{
+    padding: 20px; 
+    color: darkgrey;
+}
+
+/*copyright has padding of 20px all around.*/
+
+footer{
+    background-color: rgba(45, 49, 53);
+    padding: 30px;
+}
+
+/* footer background color set to dark grey with 30px of padding all around */
+
+footer{
+    padding: 30px;    
+    -webkit-animation: glow linear 1s infinite; 
+    animation: glow linear 1s infinite;
+    transition: transform .2s;
+} 
+
+
+/*  -webkit-animation: glow linear 1s infinite allows my footer and buttons to continuously transition from one colour to the next*/
+
+table{
+    padding: 30px;
+    border:rgb(65, 65, 65)
+}
+
+/*Table padding set to 30px with a dark grey border.*/
+
+body{
+    margin-top: 125px;
+    background-color:rgb(47, 52, 58);
+    background-size:100% 100%;
+}
+
+#bodyp{
+    margin-top: 165px;
+    background-color:rgb(47, 52, 58);
+    background-size:100% 100%;
+}
+
+/*Margin-top set to 40px is the solution for the navbar overlapping the pages content.*/
+
+.btn{
+   background-color: rgb(3, 0, 27);
+   color: rgba(131, 131, 131, 0.753);
+   border-color: rgb(32, 32, 32);
+   -webkit-animation: glow linear 1s infinite; 
+   animation: glow linear 1s infinite;
+   transition: transform .2s;
+   border-radius: 8px;
+   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn:hover{
+    -webkit-animation: glow linear 1s infinite; 
+    animation: glow linear 1s infinite;
+    transition: transform .2s; 
+    border-color: rgb(0, 14, 51);
+    box-shadow: 0 2px 4px 0 rgba(5, 0, 70, 0.808), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(6, 0, 43);
+    color: grey;
+}
+
+/* -webkit-animation: glow linear 1s infinite allows my buttons to continuously transition from one colour to the next*/
+/*button details colours set to green an dark grey.*/
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+/*Entire html files set to have height: 100%; width: 100%;.*/
+
+#gif{
+    padding: 0;
+    margin: 0;
+    box-shadow: 0;
+    height: 100px;
+    width: auto;
+}
+
+/*gifs are set to have 0 padding and margins with a height of 100px and width set to auto.*/
+
+embed{
+    padding: 0;
+    margin: 0;
+    background-size:100% 100%;
+    width: 100%;
+    height: auto;
+}
+
+/*embed files are set to have 0 padding and margins with a width of 100px and height set to auto.*/
+
+#gif2{
+    padding: 0;
+    margin-right: 5px;
+    
+    box-shadow: 0;
+    height: 50px;
+    width: auto;
+
+}
+
+#giff2{
+    padding: 0;
+    margin: 0;
+    box-shadow: 0;
+    height: 50px;
+    width: auto;
+
+}
+
+/*gif2 are set to have 0 padding and margins with a height of 50px and width set to auto.*/
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*gif2 are set to have 0 padding and margins with a height of 50px and width set to auto.*/
+
+.container {
+    text-align: center;
+    color: rgba(160, 160, 160, 0.842);
+    width: 100%;
+    height: auto;
+}
+
+/*text-align is centered with a colour set to grey, width = 100% and height = auto.*/
+
+
+.img-fluid{
+    width: 100%;
+    height: auto;  
+}
+
+/*width = 100% and height = auto.*/
+
+.navbar{
+    height: 130px; /*height of the navbar*/
+}
+
+.nav-item{
+    color: rgb(65, 65, 65) !important;
+    font-size: 0.9em !important;
+}
+
+/*nav text-color and size specified*/
+
+    
+.navbar-nav{
+    text-align: right;
+}
+
+.col{
+    height: 40px;
+}
+
+.logo{
+    height: 60px;
+    width:auto;
+    box-shadow: none;
+    transition: none;
+    border-radius: 0;
+}
+
+/*logo set to have a height of 60px and width of auto with transition set to none.*/
+
+.logo:hover{
+    transform: none;
+}
+
+/*transform set to none.*/
+
+.form-check{
+    font-size: 0.9em;
+    font-style: normal;
+}
+
+.contactusform{
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-bottom: 30px;
+    padding-right: 60px;
+    justify-content: space-between;
+}
+
+/*form set to have padding of 60px with justify-content: space-between set.*/
+
+.col{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 1.7em;
+    align-items: center;
+    align-content: center;
+}
+
+/*form set to have padding of 60px with justify-content: space-between set.*/
+
+p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 170px;
+    padding-left: 170px;
+    font-size: 1.8em;
+    color: rgb(179, 179, 179);
+    text-align: center;
+}
+
+/*paragraphs have multiple padding styles. color, text-alignment and font size specified.*/
+
+h1{
+    padding : 40px;
+    text-align: center;
+}
+
+.input-group-text{
+    color: rgb(26, 26, 26);
+    background-color: rgba(68, 68, 68, 0.315);
+    border-color: rgb(24, 24, 24);
+    
+}
+/*form button colors specified*/
+
+.form-control{
+    border-color: rgb(32, 32, 32);
+    background-color: black;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+}
+/*form border colors specified*/
+
+.test{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 1em;
+    font-style: italic;
+    color: rgb(179, 179, 179);
+    background-color: rgb(24, 24, 24);
+    text-align: center;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*website testemonials with specified styling*/
+
+.fcontainer {
+    padding: 20px;
+    display: inline-block;
+}
+
+.fchild {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}  
+
+/*fchild padding with specified rule-sets and floated to the left*/
+
+
+.imgs{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: auto;
+    box-shadow: 0 4px 8px 0 rgb(44, 44, 44), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+}
+
+/*imgs set to block with margin set to auto. width = 50% and oppacity = 100%*/
+
+.imgs2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: auto;
+    box-shadow: none;
+}
+
+.imgs2:hover{
+    transform: none;
+}
+
+#btn{
+    margin-left: 20px; 
+}
+
+.giffy{
+    margin-left: 60px;
+    height: 200px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px 0 rgb(44, 44, 44), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h3{
+    margin-left: 60px; 
+    padding-top: 30px;
+    color: rgb(22, 22, 22);
+}
+
+/*h3 set to have margin-left = 60px and padding-top = 20px. color set to dark grey*/
+
+#bb{
+    margin-top: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+    height: 40px;
+    width: 140px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: black;
+    color: rgb(158, 158, 158);
+    line-height: 20px;
+    font-size: 0.9em;
+}
+/*Styling allows for visually appealing buttons */
+
+#carticon{
+    background-color: black;
+    padding: 9px;
+    border-radius: 8px;
+    color: gray;
+}
+
+.card {
+    box-shadow: 0 2px 4px 0 rgba(10, 10, 10, 0.884), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 600px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: arial;
+    background-color: rgba(0, 0, 0, 0.596);
+    border-radius: 14px;
+    font-size: 1;
+    align-items: center;
+}
+
+/*Product cards mimic the styling of the 'Add to Cart' buttons*/
+
+#imgp{
+    width: 500px;
+    height: auto;
+    box-shadow: 0 2px 4px 0 rgba(10, 10, 10, 0.884), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#x{
+    padding: 5px;
+    margin: 0px;
+}
+
+#bbx{
+    margin-top: 35px;
+    margin-bottom:65px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+    height: 40px;
+    width: 140px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: black;
+    color: rgb(158, 158, 158);
+    line-height: 20px;
+    font-size: 0.9em;
+}
+
+/*Same styling as bb but with slight differences to the padding and margin*/
+
+#headerp{
+    margin-bottom: 50px;
+}
+
+#z{
+    font-size: 0.9em;
+    color: rgb(0, 0, 0);
+}
+
+.productscontainer{
+    max-width: 650px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 70px;
+    padding: 10px;
+    background-color: rgba(36, 38, 41, 0.24);
+}
+
+.productsheader{
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 6px solid rgb(0, 0, 0);
+    margin: 0 auto;
+      
+}
+
+/*A bottom border for the header on my checkout page*/
+
+.producttitle{
+    width: 45%;
+    color: rgb(0, 0, 0);
+}
+
+.price{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.total{
+    width: 8%;
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.quantity{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.product{
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    color: rgb(31, 31, 31);
+}
+ 
+.products{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products img{
+    width: 175px;
+    height: auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.baskettc{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    background-color: rgb(39, 39, 43);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*The design of the container that holds the Total amounts on the checkout page*/
+
+.baskettt{
+    width: 15%;
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+}
+
+.baskett{
+    width: 10%;
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+}
+
+.basketb{
+    width: 40%;
+    padding: 10px;
+    margin-left: 30px ;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+    height: 40px;
+    width: 140px;
+    box-shadow: 0 2px 4px 0 rgba(2, 2, 2, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.438);
+    background-color: black;
+    color: rgb(158, 158, 158);
+    line-height: 20px;
+    font-size: 0.9em;
+}
+
+.detailsb{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    background-color: rgba(35, 35, 37, 0.281);
+    border-radius: 10px;
+}
+
+.basketbb{
+    width: 40%;
+    padding: 10px;
+    margin-left: 30px ;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+    height: 40px;
+    width: 140px;
+    box-shadow: 0 2px 4px 0 rgba(2, 2, 2, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.438);
+    background-color: black;
+    color: rgb(158, 158, 158);
+    line-height: 20px;
+    font-size: 0.9em;
+}
+
+#cc{
+    width: 40%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+    height: 40px;
+    width: 140px;
+    box-shadow: 0 2px 4px 0 rgba(2, 2, 2, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.438);
+    background-color: rgb(28, 29, 31);
+    color: rgb(158, 158, 158);
+    line-height: 20px;
+    font-size: 0.9em; 
+    margin: 20px; 
+    border: none;
+}
+
+#radio{
+    display: block
+}
+
+#containerdetails{
+    display: flexbox;
+    width: 100%;
+    background-color: honeydew;
+}
+
+#rbuttons{
+    margin : 10px;
+}
+
+#label{
+    color: rgb(0, 0, 0);
+}
+
+#rb{
+    background-color: black;
+}
+
+.accordion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding: 30px;
+}
+
+/*The div that contains the buttons centers them inside the div container.*/
+
+.dropdown{
+    display:none;
+}
+
+#acc{
+    color: black;
+}
+
+#hac{
+    color: black;
+    font-size: 1.4em;
+    text-align: center;
+    margin: 20px;
+}
+
+#butt2{
+    font-size: 0.7em;
+    margin: 40px;
+}
+
+#bcontainer { 
+    height: 150px;
+    position: relative;
+     
+}
+
+#cccc {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.deployed {
+    display: block;
+}
+
+#basic-url{
+    background-color: rgba(56, 56, 56, 0.404);
+    border: rgb(43, 43, 43);
+}
+
+#inlineFormCustomSelect{
+    background-color: rgb(28, 29, 31);
+    border: none;
+    border-radius: 8px;
+    color: rgb(158, 158, 158);
+    box-shadow: 0 2px 4px 0 rgba(2, 2, 2, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.438);
+}
+
+/*My dropdown selection that exists on my checkout page - allows the user to choose a location.*/
