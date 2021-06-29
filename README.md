@@ -22,6 +22,8 @@ The BRAASH website allows the user to navigate seamlessly from one page tp anoth
 * Catalogue
 * Contact us
 * Shopping cart
+
+
 These pages are all self-explanatory, the page I'd like to focus on is the 'Catalogue' page which allows the user to add one/multiple prints to the users shopping cart. Once the user is satified with their cart, they can proceed to checkout. There are discount coupons, delivery options and location settings which can influence the final price. The user will be alerted with a final price and a unique reference number once they've checked out. 
 
 
