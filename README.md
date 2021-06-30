@@ -13,11 +13,11 @@
 ## About The Project
 
 
-*This Capstone project is a website built using HTML, CSS and JavaScript. We were tasked with making a basic website that sold a particular product which allowed for the the user to add a product/products to a shopping-cart which the user can then navigate to(checkout) and proceed with the purchase. The user information is stored in the localStorage using JSON and this allows us to record the information that the user inputs whilst navigating our website BRAASH.*
+*This Capstone project is a website built using HTML, CSS and JavaScript. We were tasked with making a basic website that sold a particular product which allowed for the the user to add a product/products to a shopping-cart which the user can then navigate to(checkout) and proceed with the purchase. The user information is stored in the localStorage using JSON and this allows us to record the information that the user inputs whilst navigating our website.*
 
 ## Usage
 
-The BRAASH website allows the user to navigate seamlessly from one page tp another. Once the user lands on the Homepage, he/she has the option of going to the following pages:
+The BRAASH website allows the user to navigate seamlessly from one page to another. Once the user lands on the Homepage, the user has the option of going to the following pages:
 * About us
 * Catalogue
 * Contact us
